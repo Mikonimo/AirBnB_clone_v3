@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Blueprint setup"""
+"""Blueprint setup documentation"""
 
 from flask import Blueprint
 from api.v1.views.index import *
