@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Index route for the API"""
-
+"""Index route for the API documentation"""
 from flask import jsonify
 from api.v1.views import app_views
 
