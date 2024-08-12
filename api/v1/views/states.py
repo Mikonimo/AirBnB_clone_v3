@@ -52,7 +52,7 @@ def update_state(state_id):
     state = storage.get(State, state_id)
     if not state:
         abort(404)
-    if not request.json(force=True, silent=True):
+    if not request.json():
         abort(400, description="Not a JSON")
 
     ignore_keys = ['id', 'created_at', 'updated_at']
